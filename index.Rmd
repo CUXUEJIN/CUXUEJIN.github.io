@@ -9,7 +9,11 @@ output:
 
 # This is XJ's awesome website
 
+[ahh](aboutlalla.html)
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
 
 [baidu](https://www.baidu.com)
+
+
+![](Snip20191017_5.png)
