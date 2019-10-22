@@ -1,0 +1,21 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+
+---
+
+# This is XJ's awesome website
+
+[ahh](aboutlalla.html)
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+
+[baidu](https://www.baidu.com)
+
+<img src="Snip20191017_5.png" style="width:75%">
+
+
+![](Snip20191017_5.png)
