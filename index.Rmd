@@ -4,7 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+
 ---
 
 # This is XJ's awesome website
@@ -14,6 +14,8 @@ output:
 
 
 [baidu](https://www.baidu.com)
+
+<img src="Snip20191017_5.png" style="width:75%">
 
 
 ![](Snip20191017_5.png)
