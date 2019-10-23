@@ -5,12 +5,16 @@ navbar:
   right:
     - text: "About"
       href: about.html
-    - text: "plotly"
-      href: plotly.html 
+    - text: Examples 
+      menu: 
+      - text: "plotly"
+        href: plotly.html 
+      - text: "dashboard"
+        href: dashboard.html   
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<xj2249@columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: https://github.com/CUXUEJIN
 output:
   html_document:
     theme: sandstone
