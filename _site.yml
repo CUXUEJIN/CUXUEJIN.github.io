@@ -17,4 +17,4 @@ navbar:
       href: https://github.com/CUXUEJIN
 output:
   html_document:
-    theme: sandstone
+    theme: spacelab

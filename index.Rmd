@@ -7,15 +7,9 @@ output:
 
 ---
 
-# This is XJ's awesome website
+[CLICK ME!!!](about.html)
 
-[ahh](aboutlalla.html)
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
 
-[baidu](https://www.baidu.com)
 
-<img src="Snip20191017_5.png" style="width:75%">
-
-
-![](Snip20191017_5.png)
