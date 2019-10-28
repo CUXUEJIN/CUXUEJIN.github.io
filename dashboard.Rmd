@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "P8105_hw4_xj2249_dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -9,56 +9,56 @@ output:
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(tidyverse)
-library(viridis)
 library(p8105.datasets)
 library(plotly)
+data("ny_noaa")
 
-set.seed(1)
-
-data(nyc_airbnb)
-nyc_airbnb = 
-  nyc_airbnb %>% 
-  mutate(rating = review_scores_location / 2) %>%
-  select(
-    neighbourhood_group, neighbourhood, rating, price, room_type, lat, long) %>%
-  filter(
-    !is.na(rating), 
-    neighbourhood_group == "Manhattan",
-    room_type == "Entire home/apt",
-    price %in% 100:500)  %>% 
-  sample_n(5000)
+cp_noaa <-
+  ny_noaa %>% 
+  filter(id == "USW00094728") %>% 
+  separate(date, c("year", "month", "day"), sep = "-") %>% 
+  mutate(
+          id = recode(id, "USW00094728" = "CentralPark_NY"),
+          prcp = prcp / 10,
+          tmin = as.numeric(tmin) / 10,
+          tmax = as.numeric(tmax) / 10,
+          year = factor(year)
+  )
 ```
 
-Column {data-width=650}
+Column {data-width=600}
 -----------------------------------------------------------------------
 
-### Chart A
-
+###  Month-by-month average max temperatures 1981-2010
 ```{r}
-
-nyc_airbnb %>% 
-        plot_ly(x = ~lat, y = ~long, type = "scatter", mode = "markers" ,
-                color = ~price,alpha = 0.5)
-
-
-
+cp_noaa %>% 
+  group_by(year,month) %>% 
+  summarise(mean_tmax = mean(tmax)) %>% 
+  plot_ly(x = ~month, y = ~mean_tmax , color = ~year, 
+          type = "scatter" , mode = "lines",
+          alpha = 0.5
+          ) %>% 
+  layout(title = "Month-by-month average max temperatures 1981-2010")
 ```
 
-Column {data-width=350}
+Column {data-width=400}
 -----------------------------------------------------------------------
-
-### Chart B
-
+### The annual average precipitation
 ```{r}
-nyc_airbnb %>% 
-        count(neighbourhood) %>% 
-        mutate(neighbourhood = fct_reorder(neighbourhood,n)) %>% 
-        plot_ly(x = ~neighbourhood, y = ~n, type = "bar")
+cp_noaa %>%
+  group_by(year) %>% 
+  summarise(precipitation = mean(prcp)) %>% 
+  plot_ly(x = ~year, y = ~precipitation, color = ~year, type = "bar")
+
 ```
 
-### Chart C
 
+### The average min temperatures in Nov.  (Winter is coming!) 
 ```{r}
-
+cp_noaa %>% 
+        filter( month == 11) %>% 
+        plot_ly(y = ~tmin , x = ~year, 
+                type = "box" )
 ```
+
 
