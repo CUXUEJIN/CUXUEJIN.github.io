@@ -1,0 +1,67 @@
+---
+title: Xue Jin
+output: 
+ html_document:
+    toc: true
+    toc_depth: 6
+    toc_float: true
+---
+--------------------------------------------------------------------------------
+Contact Info
+--------------------------------------------------------------------------------
+- <i class="fa fa-envelope"></i> xj2249@columbia.edu
+- <i class="fa fa-home"></i> 100 Haven Ave T3 Apt. NY.10032
+- <i class="fa fa-phone"></i> +1 870-617-3699
+- For more information, please contact me via email.
+
+Education
+---------
+**Columbia University Mailman School of Public Health**, New York, USA  [2019-2021(expected)]{style="float:right"}  
+*MS, Biostatistics*   
+Relevant Courses: Data Science, Biostatistics Method, Probability, Principles of Epidemiology
+ 
+ **Fudan University**, Shanghai, China
+ [2014-2019]{style="float:right"}  
+ *Bachelor, Preventive Medicine*  
+Honors：China National Scholarship (2015-2016, 2017-2018) (0.2%)|Outstanding Student Awards (2016-2017)|Champion of Shanghai Student Sports Game Female Soccer (2016)*
+
+Research Experience
+---------
+**Fudan University**, Researcher Assistant of biostatistics Department     [May 2017 – May 2018]{style="float:right"}  
+Project: Analysis of Factors Related to HbA1c Levels among Patients with Type 2 Diabetes  
+
+* Collected health data from primary data source on 880 patients with type 2 diabetes in Jiangsu, China  
+* Successfully found a linear correlation between total cholesterol, BMI, systolic pressure and HbA1c level by calculating Pearson Correlation Coefficients  
+* Built multiple linear regression models using stepwise selection method to assess the factors associated with HbA1c levels using R
+ 
+**Fudan University**, Project Member            [March -May 2016]{style="float:right"}      
+Project: The Association between Mobile Phone and Computer Use and Cervical Health of College Students in Shanghai
+
+* Created and conducted surveys, administered questionnaires to among 766 college students in Shanghai   
+* Consulted physicians in Tongji Hospital and CDC personnel to identify risk factors, prevention and cure of cervical spondylosis  
+* Conducted data analysis using multivariate logistic regression, concluded head-bent posture, continuous usage of mobile phone and computer and lack of exercise are risky factors to text neck.  
+
+**Fudan University**, Project Member               [July -Sept2016]{style="float:right"}      
+Project: The Impact of Smartphone Use on Sleep Quality of College Students in Shanghai
+
+* Investigated 535 students from 11 universities in Shanghai with Pittsburgh Sleeping Quality Index (PSQI) and self-designed questionnaire   
+* Applied multiple linear and logistic regression analysis to assess the correlation between sleep quality and smartphone use in SPSS	
+
+
+Working Experience
+----------
+**The Fifth People's Hospital of Shanghai, Intern, Shanghai, China** [Sept 2017-Jan 2018]{style="float:right"}  
+
+* Assisted in clinical research, including data collection, data input and data cleaning.
+
+**The Center for Disease Control and Prevention**, Intern, Shanghai, China [July-Sept 2018]{style="float:right"}   
+
+* Conducted survival analysis on AIDS patients to investigate factors related to overall and symptom-free survival time  
+* Explored risky factors of high-risk sexual behavior among men who have sex with men (MSM) with chi-square tests and multivariate logistic regression 
+
+Skills
+--------------------
+
+* Proficient in R and SPSS
+* Basic Life Support (CPR and AED) Provider, issued by American Heart Association
+
