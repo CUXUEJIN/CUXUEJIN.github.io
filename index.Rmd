@@ -4,7 +4,6 @@ output:
   html_document:
     toc: true
     toc_float: true
-
 ---
 
 <img src="images/IMG_5287.jpg" style="width:75%">
@@ -22,7 +21,7 @@ To learn more, click links below.
 (≧∇≦)ﾉ hi, [CLIKC ME!!!](about.html) to know more about my career as a amateur soccer player, my passion for cooking, and my lovely dog. 
 
 ## Resume
-Here is [my resume](cv.html), which reviews my academic and professional experience. 
+Here is my [resume](cv.html), which reviews my academic and professional experience. 
 
 ## Dashboard 
 I make a [flexdashboard](dashboard.html)  based on the data of "NY NOAA".

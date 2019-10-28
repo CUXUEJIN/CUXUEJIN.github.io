@@ -1,9 +1,26 @@
 ---
-
+title: 
+output: 
+ html_document:
+    toc: true
+    toc_float: true
 ---
+ <img src="./images//Snip20191017_5.png" style="width:20%">
 
-## Hi, bb ~
-## Love You~
+## Soccer is awesome
+I started to play soccer since high school. It's really fun to work together with a group of people towards a common goal. We support each other and work as a team.   
+<img src="./images//IMG_5288.jpg" style="width:100%">  
+**Could you find me ?**
+
+## Yummy! 
+Cooking is magical! 
+<img src="./images//IMG_5876.jpg" style="width:100%">  
+
+<img src="./images//IMG_5542.jpg" style="width:100%">  
+
+## Woof Woof 
+She's my baby dog, who's almost ten years old. You may call her "hunger".
+<img src="./images//IMG_5286.jpg" style="width:100%">  
 
 
-<img src="./images//Snip20191017_5.png" style="width:75%">
+
