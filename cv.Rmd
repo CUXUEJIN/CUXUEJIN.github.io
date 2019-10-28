@@ -3,19 +3,16 @@ title: Xue Jin
 output: 
  html_document:
     toc: true
-    toc_depth: 6
     toc_float: true
 ---
---------------------------------------------------------------------------------
-Contact Info
---------------------------------------------------------------------------------
-- <i class="fa fa-envelope"></i> xj2249@columbia.edu
-- <i class="fa fa-home"></i> 100 Haven Ave T3 Apt. NY.10032
-- <i class="fa fa-phone"></i> +1 870-617-3699
+
+**Contact Info**  
+- <i class="fa fa-envelope"></i> xj2249@columbia.edu   
+- <i class="fa fa-home"></i> 100 Haven Ave T3 Apt. NY.10032  
+- <i class="fa fa-phone"></i> +1 870-617-3699  
 - For more information, please contact me via email.
 
-Education
----------
+## Education 
 **Columbia University Mailman School of Public Health**, New York, USA  [2019-2021(expected)]{style="float:right"}  
 *MS, Biostatistics*   
 Relevant Courses: Data Science, Biostatistics Method, Probability, Principles of Epidemiology
@@ -25,8 +22,7 @@ Relevant Courses: Data Science, Biostatistics Method, Probability, Principles of
  *Bachelor, Preventive Medicine*  
 Honors：China National Scholarship (2015-2016, 2017-2018) (0.2%)|Outstanding Student Awards (2016-2017)|Champion of Shanghai Student Sports Game Female Soccer (2016)*
 
-Research Experience
----------
+## Research Experience
 **Fudan University**, Researcher Assistant of biostatistics Department     [May 2017 – May 2018]{style="float:right"}  
 Project: Analysis of Factors Related to HbA1c Levels among Patients with Type 2 Diabetes  
 
@@ -48,8 +44,7 @@ Project: The Impact of Smartphone Use on Sleep Quality of College Students in Sh
 * Applied multiple linear and logistic regression analysis to assess the correlation between sleep quality and smartphone use in SPSS	
 
 
-Working Experience
-----------
+## Working Experience
 **The Fifth People's Hospital of Shanghai, Intern, Shanghai, China** [Sept 2017-Jan 2018]{style="float:right"}  
 
 * Assisted in clinical research, including data collection, data input and data cleaning.
@@ -59,9 +54,7 @@ Working Experience
 * Conducted survival analysis on AIDS patients to investigate factors related to overall and symptom-free survival time  
 * Explored risky factors of high-risk sexual behavior among men who have sex with men (MSM) with chi-square tests and multivariate logistic regression 
 
-Skills
---------------------
-
+## Skills
 * Proficient in R and SPSS
 * Basic Life Support (CPR and AED) Provider, issued by American Heart Association
 
