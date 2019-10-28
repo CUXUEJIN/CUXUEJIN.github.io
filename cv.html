@@ -12,7 +12,7 @@
 
 
 
-<title>about.utf8.md</title>
+<title>Xue Jin</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,6 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -250,6 +253,63 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -257,6 +317,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -315,22 +385,88 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Xue Jin</h1>
 
 </div>
 
 
-<hr />
-<hr />
-<div id="hi-bb" class="section level2">
-<h2>Hi, bb ~</h2>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Contact Info</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">- <i class="fa fa-envelope"></i> <a href="mailto:xj2249@columbia.edu" class="email">xj2249@columbia.edu</a> - <i class="fa fa-home"></i> 100 Haven Ave T3 Apt. NY.10032 - <i class="fa fa-phone"></i> +1 870-617-3699 - For more information, please contact me via email.</td>
+</tr>
+<tr class="even">
+<td align="left">Education</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Columbia University Mailman School of Public Health</strong>, New York, USA <span style="float:right">2019-2021(expected)</span><br />
+<em>MS, Biostatistics</em><br />
+Relevant Courses: Data Science, Biostatistics Method, Probability, Principles of Epidemiology</p>
+<p><strong>Fudan University</strong>, Shanghai, China <span style="float:right">2014-2019</span><br />
+<em>Bachelor, Preventive Medicine</em><br />
+Honors：China National Scholarship (2015-2016, 2017-2018) (0.2%)|Outstanding Student Awards (2016-2017)|Champion of Shanghai Student Sports Game Female Soccer (2016)*</p>
+<div id="research-experience" class="section level2">
+<h2>Research Experience</h2>
+<p><strong>Fudan University</strong>, Researcher Assistant of biostatistics Department <span style="float:right">May 2017 – May 2018</span><br />
+Project: Analysis of Factors Related to HbA1c Levels among Patients with Type 2 Diabetes</p>
+<ul>
+<li>Collected health data from primary data source on 880 patients with type 2 diabetes in Jiangsu, China<br />
+</li>
+<li>Successfully found a linear correlation between total cholesterol, BMI, systolic pressure and HbA1c level by calculating Pearson Correlation Coefficients<br />
+</li>
+<li>Built multiple linear regression models using stepwise selection method to assess the factors associated with HbA1c levels using R</li>
+</ul>
+<p><strong>Fudan University</strong>, Project Member <span style="float:right">March -May 2016</span><br />
+Project: The Association between Mobile Phone and Computer Use and Cervical Health of College Students in Shanghai</p>
+<ul>
+<li>Created and conducted surveys, administered questionnaires to among 766 college students in Shanghai<br />
+</li>
+<li>Consulted physicians in Tongji Hospital and CDC personnel to identify risk factors, prevention and cure of cervical spondylosis<br />
+</li>
+<li>Conducted data analysis using multivariate logistic regression, concluded head-bent posture, continuous usage of mobile phone and computer and lack of exercise are risky factors to text neck.</li>
+</ul>
+<p><strong>Fudan University</strong>, Project Member <span style="float:right">July -Sept2016</span><br />
+Project: The Impact of Smartphone Use on Sleep Quality of College Students in Shanghai</p>
+<ul>
+<li>Investigated 535 students from 11 universities in Shanghai with Pittsburgh Sleeping Quality Index (PSQI) and self-designed questionnaire<br />
+</li>
+<li>Applied multiple linear and logistic regression analysis to assess the correlation between sleep quality and smartphone use in SPSS</li>
+</ul>
 </div>
-<div id="love-you" class="section level2">
-<h2>Love You~</h2>
-<p><img src="images/Snip20191017_5.png" style="width:75%"></p>
+<div id="working-experience" class="section level2">
+<h2>Working Experience</h2>
+<p><strong>The Fifth People’s Hospital of Shanghai, Intern, Shanghai, China</strong> <span style="float:right">Sept 2017-Jan 2018</span></p>
+<ul>
+<li>Assisted in clinical research, including data collection, data input and data cleaning.</li>
+</ul>
+<p><strong>The Center for Disease Control and Prevention</strong>, Intern, Shanghai, China <span style="float:right">July-Sept 2018</span></p>
+<ul>
+<li>Conducted survival analysis on AIDS patients to investigate factors related to overall and symptom-free survival time<br />
+</li>
+<li>Explored risky factors of high-risk sexual behavior among men who have sex with men (MSM) with chi-square tests and multivariate logistic regression</li>
+</ul>
+</div>
+<div id="skills" class="section level2">
+<h2>Skills</h2>
+<ul>
+<li>Proficient in R and SPSS</li>
+<li>Basic Life Support (CPR and AED) Provider, issued by American Heart Association</li>
+</ul>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -363,6 +499,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4,h5,h6",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
