@@ -11,11 +11,11 @@ output:
 
 ---
 **Hello, World!**  
-Welcome to my website. Here you can know everything about me, past, now and future.
-For now, I just start my new life in New York as a first-year graduate student in Columbia University.     
-To be honest, I never expected that I would come to New York but just as the saying goes, life is a box of chocolate and you never know what you're going to get. Everything here is new and fascinating but living abroad on my own is really not easy. Yet, generally, I love studying and living here. ↖(^ω ^)↗
+Welcome to my website. Here you can know everything about me, past, now and future.  
+For now, I just start my new life in New York as a first-year graduate student in Columbia University. To be honest, I never expected that I would come to New York but just as the saying goes, life is a box of chocolate and you never know what you're going to get. Everything here is new and fascinating but living abroad on my own is really not easy. Yet, generally, I love studying and living here. ↖(^ω ^)↗
 
 To learn more, click links below.
+
 
 ## About me
 (≧∇≦)ﾉ hi, [CLIKC ME!!!](about.html) to know more about my career as a amateur soccer player, my passion for cooking, and my lovely dog. 
@@ -25,7 +25,7 @@ Here is my [resume](cv.html), which reviews my academic and professional experie
 
 ## Dashboard 
 I make a [flexdashboard](dashboard.html)  based on the data of "NY NOAA".
-Here you can get a idea of how temperature change month by month during a year, how much precipitation and snowfall here and how cold next month(November) can be according to history record.   
+Here you can get a idea of how temperature change month by month during a year, how much precipitation here and how cold next month(November) can be according to history record.   
 
 Winter is coming and let's sway in the wind.
 

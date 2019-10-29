@@ -26,7 +26,7 @@ cp_noaa <-
   )
 ```
 
-Column {data-width=600}
+Column {data-width=650}
 -----------------------------------------------------------------------
 
 ###  Month-by-month average max temperatures 1981-2010
